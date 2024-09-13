@@ -1,0 +1,98 @@
+section {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+    section {
+            padding: 20px;
+            background-color: #101011;
+            margin: 10px;
+            border-radius: 5px;
+        } 
+        
+        h2 {
+          padding: 2px;
+          color: #fff;
+          margin: 1px;
+          text-shadow: 5px;
+        }
+        
+        h3 {
+          padding: 2px;
+          color: #f2f2f2;
+          margin: 1px;
+          text-shadow: 5px;
+        }
+
+  footer {
+            text-align: center;
+            padding: 1em 0;
+            background-color: blue;
+            color: #fff;
+            position: relative;
+            bottom: 0;
+          
+            text-align: center;
+        }
+        p {
+          color: #b4b4b4;
+        }
+      .nevlekY {
+         text-align: center; 
+      }
+      .nevlekk {
+               color: #ffff;
+        background: #111;
+         border: 0px solid ;
+
+      }
+          .nevlekA {
+         text-align: center;
+      }
+  
+      .nevlekX {
+        text-align: center;
+      }
+      
+      body {
+background-color: #142136;
+  
+}
+
+img {
+  padding-top: 18px;
+  padding-bottom: 0px;
+  
+}
+
+@keyframes floatingbuttom {
+  0%
+  100% {
+    transform: translateY(-6px) rotate(-6deg);
+  }
+  50% {
+    
+  transform: translateY(6px) rotate(6deg);
+  }
+  
+}  
+
+.nevlekX {
+  animation: floatingbuttom 6s ease-in-out infinite;
+}
+
+@keyframes nevlekteste{
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+nevlekA {
+  animation: nevlekteste 1.4s infinite;
+}
